@@ -5,7 +5,7 @@ end
 def create_an_array
   array = ["red", "blue", "green", "black"]
 end
-
+end
 def add_element_to_end_of_array(array, element)
     array.push(element)
    puts array.inspect
