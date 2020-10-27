@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   ["red", "blue", "green", "black"]
-  element.push("array", "element")
+  add_element_to_end_of_array.push(element)
   puts add_element_to_end_of_array.inspect
 end
 
