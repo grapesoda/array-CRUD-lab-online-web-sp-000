@@ -1,25 +1,34 @@
 def create_an_empty_array
+  
   []
+  
 end
 
 def create_an_array
-  array = ["red", "blue", "green", "black"]
+  
+  ["red", "blue", "green", "black"]
+  
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["I", "am", "really", "learning"]
-    array << element
-   puts array.inspect
-end
+  
+  array << element
+  puts array.inspect
+   
  end
+ 
 def add_element_to_start_of_array(array, element)
- array.unshift(element)
- puts array.inspect
+  
+  array.unshift(element)
+  puts array.inspect
+ 
 end
 
 def remove_element_from_end_of_array(array)
+  
   array.pop
   puts array.inspect
+  
 end
 
 def remove_element_from_start_of_array(array)
