@@ -13,7 +13,7 @@ end
 def add_element_to_end_of_array(array, element)
   
   array << element
-  puts array.inspect
+  return array.inspect
    
  end
  
